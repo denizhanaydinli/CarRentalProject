@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,6 +12,8 @@ namespace Entities.Concrete
         public int ModelYear { get; set; }
 
         public int DailyPrice { get; set; }
+
+        public int MyProperty { get; set; }
 
     }
 }
